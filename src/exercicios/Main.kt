@@ -17,7 +17,7 @@ fun main() {
     //Exercicios().somaValoresArray(arrayOf(1,2,3,4))
 
     // 6
-    Exercicios().maiorValorArray(arrayOf(2,9,80,6))
+    //Exercicios().maiorValorArray(arrayOf(2,9,80,6))
 
 
 
