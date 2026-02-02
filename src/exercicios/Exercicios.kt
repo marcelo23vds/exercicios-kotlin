@@ -41,9 +41,27 @@ class Exercicios {
     }
 
     // 5
-    fun somaArrayNumeros(listaNumeros: Array<Int>){
+    fun somaValoresArray(listaNumeros: Array<Int>){
         val resultadoSoma = listaNumeros.sum()
         println(resultadoSoma)
+    }
+
+    // 6
+    fun maiorValorArray(listaNumeros: Array<Int>){
+
+        //val resultadoSoma = listaNumeros.max()
+        var i = 0;
+        var maior = 0;
+        while (i < listaNumeros.size){
+            if (listaNumeros[i] > listaNumeros[i+1]){
+                maior = listaNumeros[i]
+            }
+
+            i++
+        }
+
+
+        println(maior)
     }
 
 }

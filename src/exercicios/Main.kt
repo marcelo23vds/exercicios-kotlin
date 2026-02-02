@@ -14,7 +14,11 @@ fun main() {
     //Exercicios().exibirTabuada(14)
 
     // 5
-    Exercicios().somaArrayNumeros(arrayOf(1,2,3,4))
+    //Exercicios().somaValoresArray(arrayOf(1,2,3,4))
+
+    // 6
+    Exercicios().maiorValorArray(arrayOf(2,9,80,6))
+
 
 
 }  
