@@ -2,6 +2,7 @@ package exercicios
 
 class Exercicios {
 
+    // 1
     fun verificarPositivoNegativo(numero: Int){
         if (numero < 0) {
             println("o numero $numero é negativo")
@@ -12,6 +13,7 @@ class Exercicios {
         }
     }
 
+    // 2
     fun verificarImparPar(numero: Int){
         if(numero % 2 == 0){
             println("numero $numero é par")
@@ -20,6 +22,7 @@ class Exercicios {
         }
     }
 
+    // 3
     fun verificarIdade(idade: Int){
         when {
             idade in 0..12      -> println("A idade é $idade, então é criança")
@@ -30,10 +33,23 @@ class Exercicios {
         }
     }
 
+    // 4
     fun exibirTabuada(numero: Int){
         for (i in 0..10) {
             println(numero * i)
         }
     }
 
+    // 5
+    fun somaArrayNumeros(listaNumeros: Array<Int>){
+        val resultadoSoma = listaNumeros.sum()
+        println(resultadoSoma)
+    }
+
 }
+
+
+
+
+
+
