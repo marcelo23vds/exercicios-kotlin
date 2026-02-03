@@ -1,24 +1,38 @@
 package exercicios
 
 fun main() {
+
     //1
-    //Exercicios().verificarImparPar(12)
+    //Exercicios().verificarImparPar(12);
 
     //2
-    //Exercicios().verificarPositivoNegativo(9)
+    //Exercicios().verificarPositivoNegativo(9);
 
     // 3
-    //Exercicios().verificarIdade(33)
+    //Exercicios().verificarIdade(33);
 
     // 4
-    //Exercicios().exibirTabuada(14)
+    //Exercicios().exibirTabuada(14);
 
     // 5
-    //Exercicios().somaValoresArray(arrayOf(1,2,3,4))
+    //Exercicios().somaValoresArray(arrayOf(1,2,3,4));
 
     // 6
-    //Exercicios().maiorValorArray(arrayOf(2,9,80,6))
+    //Exercicios().maiorValorArray(arrayOf(2,9,80,6));
 
+    // 7
+    //Exercicios().contagemRegressiva(10);
+
+    // 8
+    //Exercicios().somaParesArray(arrayOf(1,24,3,4));
+
+    // 9
+    //Exercicios().dobrarValor(7);
+
+    // 10
+    //Exercicios().calcularMediaAluno(8.0, 9.0, 10.0);
+
+    // 11
 
 
 }  

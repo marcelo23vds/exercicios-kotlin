@@ -5,70 +5,107 @@ class Exercicios {
     // 1
     fun verificarPositivoNegativo(numero: Int){
         if (numero < 0) {
-            println("o numero $numero é negativo")
+            println("o numero $numero é negativo");
         } else if (numero > 0){
-            println("o numero $numero é positivo")
+            println("o numero $numero é positivo");
         } else {
-            println("o numero $numero é zero")
+            println("o numero $numero é zero");
         }
     }
 
     // 2
     fun verificarImparPar(numero: Int){
         if(numero % 2 == 0){
-            println("numero $numero é par")
+            println("numero $numero é par");
         } else {
-            println("numero $numero é impar")
+            println("numero $numero é impar");
         }
     }
 
     // 3
     fun verificarIdade(idade: Int){
         when {
-            idade in 0..12      -> println("A idade é $idade, então é criança")
-            idade in 13 .. 17   -> println("A idade é $idade, então é adolescente")
-            idade in 18 .. 59   -> println("A idade é $idade, então é adulto")
-            idade in 60 .. 140  -> println("A idade é $idade, então é idoso")
-            else -> println("Idade $idade invalida")
+            idade in 0..12      -> println("A idade é $idade, então é criança");
+            idade in 13 .. 17   -> println("A idade é $idade, então é adolescente");
+            idade in 18 .. 59   -> println("A idade é $idade, então é adulto");
+            idade in 60 .. 140  -> println("A idade é $idade, então é idoso");
+            else -> println("Idade $idade invalida");
         }
     }
 
     // 4
     fun exibirTabuada(numero: Int){
         for (i in 0..10) {
-            println(numero * i)
+            println(numero * i);
         }
     }
 
     // 5
     fun somaValoresArray(listaNumeros: Array<Int>){
-        var i = 0
-        var totalSoma = 0
+        var i = 0;
+        var totalSoma = 0;
 
         while (i < listaNumeros.size){
-            totalSoma = totalSoma + listaNumeros[i]
-            i++
+            totalSoma = totalSoma + listaNumeros[i];
+            i++;
         }
 
-        println(totalSoma)
+        println(totalSoma);
     }
 
     // 6
     fun maiorValorArray(listaNumeros: Array<Int>){
 
         //val resultadoSoma = listaNumeros.max()
-        var i = 0
-        var maior = 0
+        var i = 0;
+        var maior = 0;
 
         while (i < listaNumeros.size){
             if (maior < listaNumeros[i]){
-                maior = listaNumeros[i]
+                maior = listaNumeros[i];
             }
-            i++
+            i++;
         }
 
-        println(maior)
+        println(maior);
     }
+
+    // 7
+    fun contagemRegressiva(numero: Int){
+        var i = numero;
+        while (i >= 0){
+            println(i);
+            i = i - 1;
+        }
+    }
+
+    // 8
+    fun somaParesArray(listaNumeros: Array<Int>){
+        var i = 0;
+        var totalSoma = 0;
+        while (i < listaNumeros.size){
+            if (listaNumeros[i] % 2 == 0){
+                totalSoma = totalSoma + listaNumeros[i];
+            }
+            i++;
+        }
+        println(totalSoma);
+    }
+
+    // 9
+    fun dobrarValor(numero: Int){
+        val valorDobrado = numero * 2;
+        println(valorDobrado);
+    }
+
+    // 10
+    fun calcularMediaAluno(nota1: Double , nota2: Double, nota3: Double){
+        val notaMedia = (nota1 + nota2 + nota3) / 3;
+        println(notaMedia);
+    }
+
+    // 11
+
 
 }
 
