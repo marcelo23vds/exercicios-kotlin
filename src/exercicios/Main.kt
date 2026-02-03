@@ -27,12 +27,13 @@ fun main() {
     //Exercicios().somaParesArray(arrayOf(1,24,3,4));
 
     // 9
-    //Exercicios().dobrarValor(7);
+    //Exercicios().dobrarValor(28);
 
     // 10
     //Exercicios().calcularMediaAluno(8.0, 9.0, 10.0);
 
     // 11
+    //Exercicios().converterTemperatura(20.0);
 
 
 }  

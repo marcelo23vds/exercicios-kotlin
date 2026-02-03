@@ -5,20 +5,20 @@ class Exercicios {
     // 1
     fun verificarPositivoNegativo(numero: Int){
         if (numero < 0) {
-            println("o numero $numero é negativo");
+            println("O numero $numero é negativo");
         } else if (numero > 0){
-            println("o numero $numero é positivo");
+            println("O numero $numero é positivo");
         } else {
-            println("o numero $numero é zero");
+            println("O numero $numero é zero");
         }
     }
 
     // 2
     fun verificarImparPar(numero: Int){
         if(numero % 2 == 0){
-            println("numero $numero é par");
+            println("O numero $numero é par");
         } else {
-            println("numero $numero é impar");
+            println("O numero $numero é impar");
         }
     }
 
@@ -35,8 +35,10 @@ class Exercicios {
 
     // 4
     fun exibirTabuada(numero: Int){
+        var total = 0;
         for (i in 0..10) {
-            println(numero * i);
+            total = numero * i;
+            println("$numero X $i = $total");
         }
     }
 
@@ -50,7 +52,7 @@ class Exercicios {
             i++;
         }
 
-        println(totalSoma);
+        println("Total da soma dos valores informados: $totalSoma");
     }
 
     // 6
@@ -67,7 +69,7 @@ class Exercicios {
             i++;
         }
 
-        println(maior);
+        println("O maior valor informado foi: $maior");
     }
 
     // 7
@@ -89,23 +91,26 @@ class Exercicios {
             }
             i++;
         }
-        println(totalSoma);
+        println("Valor total da soma dos números PARES: $totalSoma");
     }
 
     // 9
     fun dobrarValor(numero: Int){
         val valorDobrado = numero * 2;
-        println(valorDobrado);
+        println("O dobro de $numero é: $valorDobrado");
     }
 
     // 10
     fun calcularMediaAluno(nota1: Double , nota2: Double, nota3: Double){
         val notaMedia = (nota1 + nota2 + nota3) / 3;
-        println(notaMedia);
+        println("A média do aluno é $notaMedia");
     }
 
     // 11
-
+    fun converterTemperatura (temperaturaCelsius: Double){
+        val temperaturaFahrenheit = (temperaturaCelsius * 1.8) + 32;
+        println("$temperaturaCelsius ºC é equivalente a $temperaturaFahrenheit ºF");
+    }
 
 }
 
