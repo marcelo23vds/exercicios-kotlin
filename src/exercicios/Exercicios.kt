@@ -2,7 +2,17 @@ package exercicios
 
 class Exercicios {
 
+
     // 1
+    fun verificarImparPar(numero: Int){
+        if(numero % 2 == 0){
+            println("O numero $numero é par");
+        } else {
+            println("O numero $numero é impar");
+        }
+    }
+
+    // 2
     fun verificarPositivoNegativo(numero: Int){
         if (numero < 0) {
             println("O numero $numero é negativo");
@@ -10,15 +20,6 @@ class Exercicios {
             println("O numero $numero é positivo");
         } else {
             println("O numero $numero é zero");
-        }
-    }
-
-    // 2
-    fun verificarImparPar(numero: Int){
-        if(numero % 2 == 0){
-            println("O numero $numero é par");
-        } else {
-            println("O numero $numero é impar");
         }
     }
 
