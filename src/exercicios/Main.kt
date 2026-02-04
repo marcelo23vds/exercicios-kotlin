@@ -30,7 +30,7 @@ fun main() {
     //Exercicios().dobrarValor(28);
 
     // 10
-    //Exercicios().calcularMediaAluno(8.0, 9.0, 10.0);
+    //Exercicios().calcularMediaAluno(8, 9, 10);
 
     // 11
     //Exercicios().converterTemperatura(20.0);

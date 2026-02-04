@@ -101,7 +101,7 @@ class Exercicios {
     }
 
     // 10
-    fun calcularMediaAluno(nota1: Double , nota2: Double, nota3: Double){
+    fun calcularMediaAluno(nota1: Int , nota2: Int, nota3: Int){
         val notaMedia = (nota1 + nota2 + nota3) / 3;
         println("A média do aluno é $notaMedia");
     }
