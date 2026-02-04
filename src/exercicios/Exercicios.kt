@@ -25,11 +25,11 @@ class Exercicios {
 
     // 3
     fun verificarIdade(idade: Int){
-        when {
-            idade in 0..12      -> println("A idade é $idade, então é criança");
-            idade in 13 .. 17   -> println("A idade é $idade, então é adolescente");
-            idade in 18 .. 59   -> println("A idade é $idade, então é adulto");
-            idade in 60 .. 140  -> println("A idade é $idade, então é idoso");
+        when (idade) {
+            in 0..12      -> println("A idade é $idade, então é criança");
+            in 13 .. 17   -> println("A idade é $idade, então é adolescente");
+            in 18 .. 59   -> println("A idade é $idade, então é adulto");
+            in 60 .. 140  -> println("A idade é $idade, então é idoso");
             else -> println("Idade $idade invalida");
         }
     }
