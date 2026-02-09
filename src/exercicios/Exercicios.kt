@@ -104,6 +104,72 @@ class Exercicios {
         println("$temperaturaCelsius ºC é equivalente a $temperaturaFahrenheit ºF");
     }
 
+    //PARTE 2
+
+    // 12
+    fun verificarMultiplos(){
+        var i = 1
+        while (i <= 100){
+            if(i % 5 == 0 && i % 3 == 0 && i != 0){
+                println("$i -> BatataQuente")
+            } else if (i % 3 == 0 && i != 0){
+                println("$i -> Batata")
+            } else if(i % 5 == 0 && i != 0){
+                println("$i -> Quente")
+            } else {
+                println(i)
+            }
+            i++
+        }
+    }
+    // 13
+    fun listarImpares(listaNumeros: Array<Int>){
+        val imparesDaLista: List<Int> = listaNumeros.filter {it % 2 != 0}
+        println(imparesDaLista)
+    }
+    // 14
+    fun somarTotalCompra(listaNumeros: Array<Double>){
+        var i = 0;
+        var totalCompra = 0.0;
+
+        while (i < listaNumeros.size){
+            totalCompra += listaNumeros[i];
+            i++;
+        }
+        println(totalCompra)
+    }
+    // 15
+    fun calcularMediaMaioresIdade(listaNumeros: Array<Int>){
+
+        var i = 0
+        var quantidadeMaioresIdade = 0
+        var somaMaioresIdade = 0
+
+        while (i < listaNumeros.size){
+            if (listaNumeros[i] >= 18){
+                quantidadeMaioresIdade++
+                somaMaioresIdade += listaNumeros[i]
+            }
+            i++
+        }
+        val mediaMaioresIdade = (somaMaioresIdade / quantidadeMaioresIdade)
+        println(mediaMaioresIdade)
+    }
+    // 16
+    fun calcularFatorial(valor: Int){
+
+        var i = valor
+        var fatorialValor = 1
+
+        while (i > 0) {
+            fatorialValor *= i
+            i--
+        }
+        println(fatorialValor)
+    }
+
+    //EXERCICIOS 17, 18, 19 E 20 ESTÃO EM OUTRAS CLASSES
+
 }
 
 

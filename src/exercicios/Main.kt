@@ -2,7 +2,7 @@ package exercicios
 
 fun main() {
 
-    //AMBIENTAÇÃO PARTE 1 - 02/02/2026
+    // 02/02/2026
 
 //    //1
 //    Exercicios().verificarImparPar(12);
@@ -28,7 +28,7 @@ fun main() {
 //    Exercicios().converterTemperatura(20.0);
 
 
-    //AMBIENTAÇÃO PARTE 2 - 04/02/2026
+    // 04/02/2026
 
     //utilização do FILTER (Seleciona alguns elementos -> retorna uma collection)
 //    val numeros = listOf(1,2,3,4,5,6);
@@ -52,7 +52,30 @@ fun main() {
 //        .filter { numero -> numero % 2 == 0 }
 //        .map {numero -> numero * 2}
 //        .reduce { acumulador, numero -> acumulador + numero }
-//
 //    println(somaDobroPares);
+
+
+    //  09/02/2026
+
+//    // 12
+//    Exercicios().verificarMultiplos()
+//    // 13
+//    Exercicios().listarImpares(arrayOf(0,1,2,3,4,5,6,7,8,9))
+//    // 14
+//    Exercicios().somarTotalCompra(arrayOf(10.5,24.8,40.6))
+//    // 15
+//    Exercicios().calcularMediaMaioresIdade(arrayOf(10,20,40,5))
+//    // 16
+//    Exercicios().calcularFatorial(10)
+//    // 17
+//    val pessoa = Pessoa("Marcelo", 24, "Jandira")
+//    pessoa.exibirDados()
+    // 18
+
+
+    // 19
+
+    // 20
+
 
 }  
