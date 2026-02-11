@@ -167,8 +167,24 @@ class Exercicios {
         }
         println(fatorialValor)
     }
+    // 18
+    fun maiorValorArrayProdutos(listaProdutos: Array<Produto>){
 
-    //EXERCICIOS 17, 18, 19 E 20 ESTÃO EM OUTRAS CLASSES
+        var i = 0
+        var maior = 0.0
+        var nomeProduto = ""
+
+        while (i < listaProdutos.size){
+            if (maior < listaProdutos[i].preco){
+                maior = listaProdutos[i].preco
+                nomeProduto = listaProdutos[i].nome
+            }
+            i++;
+        }
+        println("O produto de maior valor é $nomeProduto e custa $maior")
+    }
+
+    //EXERCICIOS 17, 19 E 20 ESTÃO EM OUTRAS CLASSES
 
 }
 

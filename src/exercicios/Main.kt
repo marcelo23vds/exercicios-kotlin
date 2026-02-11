@@ -55,7 +55,7 @@ fun main() {
 //    println(somaDobroPares);
 
 
-    //  09/02/2026
+    // 09/02/2026
 
 //    // 12
 //    Exercicios().verificarMultiplos()
@@ -67,15 +67,32 @@ fun main() {
 //    Exercicios().calcularMediaMaioresIdade(arrayOf(10,20,40,5))
 //    // 16
 //    Exercicios().calcularFatorial(10)
+
 //    // 17
 //    val pessoa = Pessoa("Marcelo", 24, "Jandira")
 //    pessoa.exibirDados()
-    // 18
 
+    // 11/02/2026
 
-    // 19
+//    // 18
+//    val produto1 = Produto("TV", 3000.00)
+//    val produto2 = Produto("Teclado", 300.00)
+//    val produto3 = Produto("Video Game", 4000.00)
+//    var listaProdutos = arrayOf(produto1, produto2, produto3)
+//    Exercicios().maiorValorArrayProdutos(listaProdutos)
 
-    // 20
+//    // 19
+//    val pessoa1 = ContaBancaria("Marcelo")
+//    pessoa1.depositarValor(2000.00)
+//    pessoa1.depositarValor(200.00)
+//    pessoa1.sacarValor(50.00)
+//    pessoa1.consultarSaldo()
+
+//    // 20
+//    val funcionario1 = Funcionario(nome = "Marcelo", salario = 3000.00)
+//    funcionario1.exibirSalario()
+//    val funcionario2 = Gerente(nome = "Marc", salario = 3000.00)
+//    funcionario2.exibirSalario()
 
 
 }  
